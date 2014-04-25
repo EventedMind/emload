@@ -1,0 +1,21 @@
+{
+  "name": "emload",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "ddp": "~0.4.4",
+    "fibers": "~1.0.1",
+    "minimist": "~0.0.8",
+    "mongodb": "~1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "bin": {
+    "emload": "./bin/emload.js"
+  }
+}
